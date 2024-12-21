@@ -1,14 +1,14 @@
 import Header from "./components/Header";
-// import Footer from "./components/Footer";
-// import Content from "./components/Content";
+import Footer from "./components/Footer";
+import Content from "./components/Content";
 import styles from "./App.module.scss";
 
 function App() {
   return (
     <div className={`d-flex flex-column  ${styles.appContainer}`}>
       <Header />
-      {/* <Content />
-      <Footer /> */}
+      <Content />
+      <Footer />
     </div>
   );
 }
