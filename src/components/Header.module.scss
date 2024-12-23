@@ -1,3 +1,5 @@
+@use "../assets/styles/_mixins.scss" as mixin;
+
 .header {
   padding: 10px 20px;
   box-shadow: var(--box-shadow);
@@ -5,7 +7,23 @@
   position: relative;
   background-color: white;
   height: 58px;
-  img{
-    width:130px;
+  img {
+    width: 130px;
   }
+}
+.headerList {
+  @include mixin.xs {
+    display: none;
+  }
+}
+.headerXs {
+  display: none;
+  @include mixin.xs {
+    display: block;
+  }
+  cursor: pointer;
+  &:hover {
+    opacity: 0.8;
+  }
+  transition: opacity 0.2;
 }
