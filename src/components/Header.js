@@ -2,9 +2,14 @@ import styles from "./Header.module.scss";
 import recipe from "../assets/images/logo.png";
 import { useState } from "react";
 import HeaderMenu from "./HeaderMenu";
+import { useNavigate } from 'react-router-dom';
 
 function Header() {
   const [showMenu, setShowMenu] = useState(false);
+  const navigate = useNavigate();
+
+  const handleLoginClick = () => {
+      navigate('/login'); };
   return (
     <header className={`${styles.header} d-flex flex-row align-items-center`}>
       <div className="flex-fill">
@@ -15,7 +20,7 @@ function Header() {
           <i class="fa-solid fa-heart mr-5"></i>
           <span>Wishlist</span>
         </button>
-        <button className="btn btn-primary">Login</button>
+        <button className="btn btn-primary" onClick={handleLoginClick} >Login</button>
       </ul>
       <i
         onClick={() => setShowMenu(true)}
