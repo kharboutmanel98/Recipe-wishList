@@ -27,34 +27,29 @@ Before starting, make sure you have the following installed on your system:
 
 ### Installation
 
-1. Clone the Repository
-  git clone https://github.com/yourusername/recipe-wishlist.git
-  cd recipe-wishlist
-2. Install Dependencies
-  npm install
-3. Running the Project
-  npm start
-
-
+1. **Clone the Repository**  
+   ```bash
+   git clone https://github.com/yourusername/recipe-wishlist.git
+   cd recipe-wishlist
 
 ### Project Structure
+src/
+├── components/     # React components (Header, Footer, Recipe, etc.)
+├── assets/         # Images and SCSS files for styling
+├── data/           # Static recipe data (recipes.js)
+├── styles/         # Organized SCSS files (_variables.scss, _mixins.scss, etc.)
 
-src/components: Contains React components like Header, Footer, Recipe, etc.
-src/assets: Includes images and SCSS files for styling.
-src/data: Contains static recipe data (recipes.js).
-src/styles: Organized SCSS files (e.g., _variables.scss, _mixins.scss, etc.).
+## Tech Stack
 
-### Tech Stack
-Frontend: React.js, SCSS
-Styling: Bootstrap, FontAwesome
-API: Unsplash (for recipe images)
-State Management: React useState
+- **Frontend:** React.js, SCSS  
+- **Styling:** Bootstrap, FontAwesome  
+- **API:** Unsplash (for recipe images)  
+- **State Management:** React useState  
 
-### Future Enhancements
-Backend integration with Firebase for authentication and database storage.
-Add recipe categories and meal-planning features.
-Social sharing and AI-based personalized recommendations.
+---
 
+## Future Enhancements
 
-
-
+- Backend integration with Firebase for authentication and database storage.  
+- Add recipe categories and meal-planning features.  
+- Social sharing and AI-based personalized recommendations.   
