@@ -27,17 +27,18 @@ Before starting, make sure you have the following installed on your system:
 
 ### Installation
 
-1. **Clone the Repository**  
-   ```bash
-   git clone https://github.com/yourusername/recipe-wishlist.git
+ Clone the Repository 
    cd recipe-wishlist
+   npm install
+   npm start
+   
 
 ### Project Structure
 src/
-├── components/     # React components (Header, Footer, Recipe, etc.)
-├── assets/         # Images and SCSS files for styling
-├── data/           # Static recipe data (recipes.js)
-├── styles/         # Organized SCSS files (_variables.scss, _mixins.scss, etc.)
+components/  # React components (Header, Footer, Recipe, etc.)
+assets/      # Images and SCSS files for styling
+data/        # Static recipe data (recipes.js)
+styles/      # Organized SCSS files (_variables.scss, _mixins.scss, etc.)
 
 ## Tech Stack
 
