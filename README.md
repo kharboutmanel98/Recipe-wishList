@@ -34,11 +34,11 @@ Before starting, make sure you have the following installed on your system:
    
 
 ### Project Structure
-src/
-components/  # React components (Header, Footer, Recipe, etc.)
-assets/      # Images and SCSS files for styling
-data/        # Static recipe data (recipes.js)
-styles/      # Organized SCSS files (_variables.scss, _mixins.scss, etc.)
+- **src/:**
+- **components/:** React components (Header, Footer, Recipe, etc.)
+- **assets/:** Images and SCSS files for styling
+- **data/:** Static recipe data (recipes.js)
+- **styles/:** Organized SCSS files (_variables.scss, _mixins.scss, etc.)
 
 ## Tech Stack
 
