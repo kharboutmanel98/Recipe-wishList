@@ -25,12 +25,12 @@ Before starting, make sure you have the following installed on your system:
 
 ---
 
-### Installation
+## Installation
 
-**Clone the Repository**
-**cd recipe-wishlist**
-**npm install**
-**npm start**
+- Clone the Repository.
+- cd recipe-wishlist.
+- npm install.
+- npm start.
    
 
 ### Project Structure
